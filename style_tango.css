@@ -1,0 +1,164 @@
+/* Style für www.Tango-Hans-und-suzan.de */ 
+
+/* Init-Styles */
+body{
+	font-size: 11px;
+	background-image: url(assets/bg_allg.jpg);
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat-x;
+	background-color: #D2D2D2;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+a:link, a:visited{
+	color: #222222;
+	text-decoration: underline;
+}
+a:hover{
+	color: #CC0B0C;
+	text-decoration: underline;
+}
+
+.content table{
+	padding:0px;
+	margin:10px 0px;
+	border:0px solid;
+	border-spacing:0;
+	border-left:1px solid #222;
+	border-top:1px solid #222;
+}
+.content table th,
+.content table td{
+	color:#222;
+	font-size:11px;
+	border:0px solid;
+	padding:3px 7px;
+	margin:0;
+	border-style:solid;
+	border:0px solid;
+	border-bottom:1px solid #222;
+	border-right:1px solid #222;
+}
+.content table th{
+	background:#CC0B0C;
+	color:#fff;
+	font-weight:bold;
+}
+	
+.table_navi{
+	background-image: url(assets/bg_navi.jpg);
+	height: 608px !important;
+	height: 768px;
+	width: 206px;
+	padding-top: 160px;
+	background-repeat: no-repeat;
+	vertical-align: top;
+}
+.table_content{
+	background-image: url(assets/bg_content.jpg);
+	width: 502px;
+	height: 598px !important;
+	height: 768px;
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top:170px;
+}
+.table_right{
+	background-image: url(assets/bg_right.jpg);
+	width: 327px;
+	height: 768px;
+	background-repeat: no-repeat;
+	vertical-align: top;
+}
+.content{
+	padding: 10px;
+	font-size: 11px;
+	color: #222222;
+}
+
+/* Navigations-Styles */
+a.a_navi:link, a.a_navi:visited{
+	display: block;
+	height:20px !important;
+	height:24px;
+	font-size: 12px;
+	width: 185px !important;
+	width: 200px;
+	background-image: url();
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-top: 4px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.a_navi:hover{
+	background-image: url(assets/navi_over.gif);
+}
+a.a_navi_aktiv:link, a.a_navi_aktiv:visited{
+	display: block;
+	height:21px !important;
+	height:24px;
+	font-size: 14px;
+	width: 168px !important;
+	width: 200px;
+	background-image: url(assets/navi_aktiv.gif);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	padding-left: 32px;
+	padding-top: 3px;
+	color: #CC0B0C;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Schrift-formatierungen */
+.ueberschrift1{
+	font-size: 16px;
+	font-weight: bold;
+	color: #222222;
+	padding-bottom: 10px;
+	padding-left:10px;
+}
+.ueberschrift2{
+	color:#222222;
+	font-size:11px;
+	font-weight:bold;
+}
+.fliessetext1{
+	font-size: 11px;
+	color: #222222;
+}
+.fliessetext_9{
+	font-size: 9px;
+	color: #222222;
+}
+.fliessetext_F{
+	font-size: 11px;
+	color: #222222;
+	font-weight: bold;
+}
+.content_fuss{
+	padding-top: 5px;
+	padding-left: 3px;
+	font-size: 9px;
+	color: #CC0B0C;
+}
+a.link_anker:link, a.link_anker:visited{
+	font-size: 11px;
+	font-weight: bold;
+	color: #222222;
+	text-decoration: none;
+}
+a.link_anker:hover{
+	color: #CC0B0C;
+}
+/* Kontaktformular */
+.input_kontakt {padding:2px;padding-left:5px; border:1px solid #5C5C5C; width:230px; height:20px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:11px; font-weight: normal; color:#222222;}
+.input_kontakt_plz {padding:2px;padding-left:5px; border:1px solid #5C5C5C; width:55px; height:20px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:11px; color:#222222;}
+.input_kontakt_ort {padding:2px;padding-left:5px; border:1px solid #5C5C5C; width:169px; height:20px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:11px; color:#222222;}
+.input_kontakt_button {padding:2px;padding-left:5px; border:1px solid #5C5C5C; width:90px; height:20px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:11px; color:#222222; cursor:pointer;}
+.input_kontakt_button:hover {background-color:#A40020;padding:2px;padding-left:5px;border:1px solid #5C5C5C; width:90px; height:20px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:11px; color:#222222; cursor:pointer;}
+.input_kontakt_mitteilung {padding:2px;padding-left:5px; border:1px solid #5C5C5C; width:230px; height:200px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:11px; color:#222222;}
+
